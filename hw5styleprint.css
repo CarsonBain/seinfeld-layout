@@ -1,0 +1,55 @@
+/*--CARSON BAIN COMP1950 HOMEWORK 5 PRINT STYLES--*/
+h2, h1, #nav li, h3, h4, aside, .hero-container a {
+  font-family: 'Assistant', sans-serif;
+}
+p, .main-container li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.content-title h2, .nav-left, .nav-right, .social-sidebar {
+    display: none;
+}
+.block-quote p, .hero-text {
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.feature-image {
+  text-align: center;
+}
+img {
+  width: 30%;
+}
+.kramer {
+  display: none;
+}
+h1 {
+  text-align: center;
+}
+.features .box {
+border: 1px solid #333;
+resize: both;
+overflow: auto;
+padding: 2%;
+width: 80%;
+margin: 0 auto;
+}
+.features .box2 {
+border: 1px solid #333;
+outline: 2px solid #fdcf46;
+outline-offset: 15px;
+margin-top: 5%;
+width: 80%;
+margin: 5% auto;
+}
+h1, h2, h2, h4, h5, h6 {
+  page-break-after: avoid;
+}
+aside {
+  page-break-before: always;
+}
+a:link:after,
+	a:visited:after{
+	   content: " (URL: " attr(href) ") ";
+	   font-size: 90%;
+	}
